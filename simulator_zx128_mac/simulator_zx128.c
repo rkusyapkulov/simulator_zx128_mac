@@ -16,9 +16,9 @@ typedef uint32_t DWORD;
 
 // --- ПАРАМЕТРЫ ЭКРАНА ZX SPECTRUM ---
 #define BORDER_WIDTH  32
-#define BORDER_HEIGHT 32
+#define BORDER_HEIGHT 24
 #define SCREEN_WIDTH  (256 + BORDER_WIDTH * 2)  // 320
-#define SCREEN_HEIGHT (192 + BORDER_HEIGHT * 2) // 256
+#define SCREEN_HEIGHT (192 + BORDER_HEIGHT * 2) // 240
 
 // --- ГЛОБАЛЬНАЯ ПАМЯТЬ ZX SPECTRUM 128K + TR-DOS ---
 BYTE spec_rom[2][16384];  // ROM 0: 128К Меню/Editor, ROM 1: 48K BASIC

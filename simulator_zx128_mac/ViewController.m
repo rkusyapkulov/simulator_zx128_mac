@@ -6,7 +6,7 @@
 
 // Dimensions of the ZX Spectrum screen layout with borders included
 #define SCREEN_WIDTH  320
-#define SCREEN_HEIGHT 256
+#define SCREEN_HEIGHT 240
 
 #define AUDIO_SAMPLE_RATE 44100
 #define AUDIO_BUFFER_SIZE 1024
